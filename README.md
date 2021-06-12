@@ -5,15 +5,15 @@ Author: kucha , Copyright © 2021
 
 一、基本信息
 ---------------------------------------------------------------------------------------------------------------
-;Reference
-	Windows10 + AutoCAD2020 (Simplified Chinese or English) 
-;Website
-	https://space.bilibili.com/28181671
-	www.twitter.com/kucha_Mai   
-        
-;E-mail
-	kucha0609@qq.com
-        
+	;Reference
+		Windows10 + AutoCAD2020 (Simplified Chinese or English) 
+
+	;Website
+		https://space.bilibili.com/28181671
+		www.twitter.com/kucha_Mai   
+
+	;E-mail
+		kucha0609@qq.com
 ---------------------------------------------------------------------------------------------------------------
 
 
