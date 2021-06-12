@@ -1,16 +1,23 @@
 # AutoCAD-Origami-Diagram
 Use AutoCAD for Origami Diagram. 
-Author: kucha , Copyright ? 2021 - https://space.bilibili.com/28181671  Or  www.twitter.com/kucha_Mai   
+Author: kucha , Copyright © 2021
 
 
-一、环境参考
+一、基本信息
 ---------------------------------------------------------------------------------------------------------------
+;Reference
 	Windows10 + AutoCAD2020 (Simplified Chinese or English) 
+;Website
+	https://space.bilibili.com/28181671
+	www.twitter.com/kucha_Mai   
+;E-mail
+	kucha0609@qq.com
 ---------------------------------------------------------------------------------------------------------------
 
-二、功能特点
+
+二、主程序功能总览
 ---------------------------------------------------------------------------------------------------------------
-参数说明 and 调用的命令:
+;参数说明 and 调用的命令:
 
 	功能00：工具下载：打开OrigamiTools项目界面，同时下载最新的文件
 		命令:OTD
@@ -43,5 +50,10 @@ Author: kucha , Copyright ? 2021 - https://space.bilibili.com/28181671  Or  www.
 		命令四:HFTC=7=恢复图层    ZWDQ=8=置为当前
 		命令五:YZDQ=9=移至当前    XZLS=0=选择类似	
 ---------------------------------------------------------------------------------------------------------------
+
+二、主程序功能细节
+---------------------------------------------------------------------------------------------------------------
+![image](https://user-images.githubusercontent.com/64700720/121770498-32a5de80-cb9c-11eb-9bc4-e427e59d97e6.png)
+
 
 
