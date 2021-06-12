@@ -53,7 +53,9 @@ Author: kucha , Copyright © 2021
 
 二、主程序功能细节
 ---------------------------------------------------------------------------------------------------------------
-![image](https://user-images.githubusercontent.com/64700720/121770498-32a5de80-cb9c-11eb-9bc4-e427e59d97e6.png)
+
+功能2:
+        ![image](https://user-images.githubusercontent.com/64700720/121770498-32a5de80-cb9c-11eb-9bc4-e427e59d97e6.png)
 
 
 
