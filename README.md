@@ -19,7 +19,8 @@ Use AutoCAD for Origami Diagram.
 ---------------------------------------------------------------------------------------------------------------
 ;OrigamiTools的定位
 
-	OrigamiTools是AutoCAD的一个插件，无法独立运行。所以你必须在安装任意一个版本的AutoCAD之后，再安装OrigamiTools
+	OrigamiTools是AutoCAD的一个插件，无法独立运行。
+	所以你必须在安装任意一个版本的AutoCAD之后，再安装OrigamiTools
 	
 	        1-请不要安装精简版的AutoCAD，可能会缺少某些函数
 		2-这里推荐AutoCAD的版本大于等于2018，低版本可能会缺少某些函数
