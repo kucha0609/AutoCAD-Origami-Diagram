@@ -25,10 +25,16 @@ Use AutoCAD for Origami Diagram.
 	        1-请不要安装精简版的AutoCAD，可能会缺少某些函数
 		2-这里推荐AutoCAD的版本大于等于2018，低版本可能会缺少某些函数
 		3-你可以到AutoCAD官网申请一个月的软件试用，以便您可以更好的了解它
-
 		
 	※申请一个月的软件试用期↓↓↓
 	https://knowledge.autodesk.com/zh-hans/support/autocad/learn-explore/caas/CloudHelp/cloudhelp/CHS/Autodesk-Installation/files/install-workflow-to-download-product-software-htm.html
+
+;OrigamiTools启动失败
+	如果你在安装OrigamiTools并且启动AutoCAD后，无法使用主程序的命令，你可以使用以下的代码手动加载代码 ↓ ↓ ↓
+	(Load "C:\\OrigamiTools\\1-Code_Summary\\【Kucha】主程序_V12.6.lsp")(C:Manual_Load)
+
+		
+	
 
 三、主程序功能总览
 ---------------------------------------------------------------------------------------------------------------
