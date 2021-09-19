@@ -6,7 +6,7 @@ Use AutoCAD for Origami Diagram.
 一、基本信息
 ---------------------------------------------------------------------------------------------------------------
 	;Reference
-		Windows10 + AutoCAD2020 (Simplified Chinese or English) 
+		**Windows10** + AutoCAD2020/2014... (Simplified Chinese or English) 
 
 	;Website
 		https://space.bilibili.com/28181671
@@ -19,8 +19,11 @@ Use AutoCAD for Origami Diagram.
 ---------------------------------------------------------------------------------------------------------------
 ;OrigamiTools的定位
 
-	OrigamiTools是AutoCAD的一个插件，无法独立运行。
-	※所以你必须在安装任意一个版本的AutoCAD之后，再安装OrigamiTools
+	※OrigamiTools是AutoCAD的一个插件,无法独立运行
+		它的目的是为了帮助折纸爱好者在AutoCAD中更快更高效的绘制折纸图解。
+		它集成了大量的折纸符号、少量折纸图集以及有趣的折纸命令。
+
+	※想要正确运行OrigamiTools。你必须在安装了任意版本的AutoCAD之后，再安装OrigamiTools
 	
 	        1-请不要安装精简版的AutoCAD，可能会缺少某些函数
 		2-这里推荐AutoCAD的版本大于等于2018，低版本可能会缺少某些函数
@@ -29,7 +32,7 @@ Use AutoCAD for Origami Diagram.
 	※申请一个月的软件试用期↓↓↓
 	https://knowledge.autodesk.com/zh-hans/support/autocad/learn-explore/caas/CloudHelp/cloudhelp/CHS/Autodesk-Installation/files/install-workflow-to-download-product-software-htm.html
 
-;OrigamiTools启动失败
+;如果OrigamiTools启动失败
 
 	如果你在安装OrigamiTools并且启动AutoCAD后，无法使用主程序的命令，你可以使用以下的代码手动加载代码 ↓ ↓ ↓
 	(Load "C:\\OrigamiTools\\1-Code_Summary\\【Kucha】主程序_V12.6.lsp")(C:Manual_Load)
