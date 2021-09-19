@@ -6,7 +6,7 @@ Use AutoCAD for Origami Diagram.
 一、基本信息
 ---------------------------------------------------------------------------------------------------------------
 	;Reference
-		**Windows10** + AutoCAD2020/2014... (Simplified Chinese or English) 
+		Windows10 + AutoCAD2020/2014... (Simplified Chinese or English) 
 
 	;Website
 		https://space.bilibili.com/28181671
