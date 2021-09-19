@@ -30,6 +30,7 @@ Use AutoCAD for Origami Diagram.
 	https://knowledge.autodesk.com/zh-hans/support/autocad/learn-explore/caas/CloudHelp/cloudhelp/CHS/Autodesk-Installation/files/install-workflow-to-download-product-software-htm.html
 
 ;OrigamiTools启动失败
+
 	如果你在安装OrigamiTools并且启动AutoCAD后，无法使用主程序的命令，你可以使用以下的代码手动加载代码 ↓ ↓ ↓
 	(Load "C:\\OrigamiTools\\1-Code_Summary\\【Kucha】主程序_V12.6.lsp")(C:Manual_Load)
 
@@ -68,7 +69,9 @@ Use AutoCAD for Origami Diagram.
 		命令:RH/Redo_Hatch
 	功能13：一键转换：重做填充#RH#+颜色转换#CC#+字段转换TOTEXT+对象顺序LO
 		命令:TOAI/`TOAI 
-	功能14：图层管理：采用数字+汉语拼音简写的方式来调用对应的图层状态
+	功能14：文字合并：将先选择的文字的内容合并到后选择的文字内容中
+		命令:TJ/Text_Join 
+	功能15：图层管理：采用数字+汉语拼音简写的方式来调用对应的图层状态
 		命令一:GBTC=1=关闭图层    TCQK=2=图层全开
 		命令二:SDTC=3=锁定图层    JSTC=4=解锁图层	
 		命令三:GBQT=5=关闭其它    SDQT=6=锁定其它
