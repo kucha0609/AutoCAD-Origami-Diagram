@@ -6,7 +6,7 @@ Use AutoCAD for Origami Diagram.
 一、基本信息
 ---------------------------------------------------------------------------------------------------------------
 	;Reference
-		Windows10 + AutoCAD2020/2014... (Simplified Chinese or English) 
+		Windows10 + AutoCAD(Simplified Chinese or English) 
 
 	;Website
 		https://space.bilibili.com/28181671
@@ -34,7 +34,7 @@ Use AutoCAD for Origami Diagram.
 
 ;如果OrigamiTools启动失败
 
-	如果你在安装OrigamiTools并且启动AutoCAD后，无法使用主程序的命令，你可以使用以下的代码手动加载代码 ↓ ↓ ↓
+	如果你在安装OrigamiTools并且在启动AutoCAD后，无法使用OrigamiTools的任何命令，你可以手动复制下面的代码，粘贴到命令行中并回车手动加载代码 ↓ ↓ ↓
 	(Load "C:\\OrigamiTools\\1-Code_Summary\\【Kucha】主程序_V12.6.lsp")(C:Manual_Load)
 
 		
@@ -72,7 +72,7 @@ Use AutoCAD for Origami Diagram.
 		命令:RH/Redo_Hatch
 	功能13：一键转换：重做填充#RH#+颜色转换#CC#+字段转换TOTEXT+对象顺序LO
 		命令:TOAI/`TOAI 
-	功能14：文字合并：将先选择的文字的内容合并到后选择的文字内容中
+	功能14：文字合并：将先选择的文字内容合并到后选择的文字内容中
 		命令:JT/Join_Text 
 	功能15：图层管理：采用数字+汉语拼音简写的方式来调用对应的图层状态
 		命令一:GBTC=1=关闭图层    TCQK=2=图层全开
