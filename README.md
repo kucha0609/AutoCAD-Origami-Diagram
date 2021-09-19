@@ -73,7 +73,7 @@ Use AutoCAD for Origami Diagram.
 	功能13：一键转换：重做填充#RH#+颜色转换#CC#+字段转换TOTEXT+对象顺序LO
 		命令:TOAI/`TOAI 
 	功能14：文字合并：将先选择的文字的内容合并到后选择的文字内容中
-		命令:TJ/Text_Join 
+		命令:JT/Join_Text 
 	功能15：图层管理：采用数字+汉语拼音简写的方式来调用对应的图层状态
 		命令一:GBTC=1=关闭图层    TCQK=2=图层全开
 		命令二:SDTC=3=锁定图层    JSTC=4=解锁图层	
