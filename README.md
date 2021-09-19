@@ -31,7 +31,7 @@ Use AutoCAD for Origami Diagram.
 		
 ;如果OrigamiTools启动失败
 
-	如果你在安装OrigamiTools并且在启动AutoCAD后，无法使用OrigamiTools的任何命令，你可以手动复制下面的代码，粘贴到命令行中并回车手动加载代码 ↓ ↓ ↓
+	`如果你在安装OrigamiTools并且在启动AutoCAD后，无法使用OrigamiTools的任何命令，你可以手动复制下面的代码，粘贴到命令行中并回车手动加载代码 ↓ ↓ ↓`
 	(Load "C:\\OrigamiTools\\1-Code_Summary\\【Kucha】主程序_V12.6.lsp")(C:Manual_Load)
 
 ※申请一个月的AutoCAD试用期==>>[here](https://knowledge.autodesk.com/zh-hans/support/autocad/learn-explore/caas/CloudHelp/cloudhelp/CHS/Autodesk-Installation/files/install-workflow-to-download-product-software-htm.html)		
