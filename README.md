@@ -17,7 +17,7 @@ Use AutoCAD for Origami Diagram.
 
 二、如何使用OrigamiTools
 ---------------------------------------------------------------------------------------------------------------
-;OrigamiTools的定位
+; `OrigamiTools的定位` 
 
 	※OrigamiTools是AutoCAD的一个插件,无法独立运行
 		它的目的是为了帮助折纸爱好者在AutoCAD中更快更高效的绘制折纸图解。
