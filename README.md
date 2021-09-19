@@ -30,7 +30,8 @@ Use AutoCAD for Origami Diagram.
 		3-你可以到AutoCAD官网申请一个月的软件试用，以便您可以更好的了解它
 		
 	※申请一个月的软件试用期↓↓↓
-	https://knowledge.autodesk.com/zh-hans/support/autocad/learn-explore/caas/CloudHelp/cloudhelp/CHS/Autodesk-Installation/files/install-workflow-to-download-product-software-htm.html
+	[here](https://knowledge.autodesk.com/zh-hans/support/autocad/learn-explore/caas/CloudHelp/cloudhelp/CHS/Autodesk-Installation/files/install-workflow-to-download-product-software-htm.html)
+	
 
 ;如果OrigamiTools启动失败
 
