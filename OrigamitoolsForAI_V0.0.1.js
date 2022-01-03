@@ -137,6 +137,7 @@
         }
     //Save the file in AI format
         function saveAiFile(){
+            //Get the path where the script is located
             var scriptFile = new File($.fileName);
             var scriptPath = scriptFile.parent.fsName + "\\--Export--\\";
             if (!Folder(scriptPath).exists){Folder(scriptPath).create() }
