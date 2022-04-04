@@ -1,79 +1,113 @@
 # AutoCAD-Origami-Diagram
-Use AutoCAD for Origami Diagram. 
-      Writer: kucha >>2021<<
+OrigamiTools：Use AutoCAD for Origami Diagram. 
+Writer: kucha >>2022<<
 
 
 一、基本信息
 ---------------------------------------------------------------------------------------------------------------
-	;Reference
-		Windows10 + AutoCAD(Simplified Chinese or English) 
+;--Reference
 
-	;Website
-		https://space.bilibili.com/28181671
-		www.twitter.com/kucha_Mai   
+	Windows_10 + AutoCAD(Simplified Chinese or English) 
 
-	;E-mail
-		kucha0609@qq.com
+;--Website
 
-二、如何使用OrigamiTools
+	https://space.bilibili.com/28181671
+	www.twitter.com/kucha_Mai   
+
+;--E-mail
+
+	kucha0609@qq.com
+
+二、如何使用OrigamiTools（以下简称OT）
 ---------------------------------------------------------------------------------------------------------------
-;OrigamiTools的定位
+;--OT的定位
 
-	※OrigamiTools是AutoCAD的一个插件,无法独立运行
-		它的目的是为了帮助折纸爱好者在AutoCAD中更快更高效的绘制折纸图解。
-		它集成了大量的折纸符号、少量折纸图集以及有趣的折纸命令。
-
-	※想要正确运行OrigamiTools。你必须在安装了任意版本的AutoCAD之后，再安装OrigamiTools
+	※OT是AutoCAD的插件,无法独立运行
 	
-	        1-请不要安装精简版的AutoCAD，可能会缺少某些函数
-		2-这里推荐AutoCAD的版本 `大于等于2018` ，低版本可能会缺少某些函数
-		3-你可以到AutoCAD官网申请一个月的软件试用，以便您可以更好的了解它
+		1-它可以帮助折纸玩家在AutoCAD中更快更高效的绘制折纸图解。
+		2-它集成了大量的折纸符号、折纸图解和折纸相关的命令。
 		
-;如果OrigamiTools启动失败
+;--如何使用OT
 
-	如果你在安装OrigamiTools并且在启动AutoCAD后，无法使用OrigamiTools的任何命令，你可以手动复制下面的代码，粘贴到命令行中并回车手动加载代码 ↓ ↓ ↓
-	(Load "C:\\OrigamiTools\\1-Code_Summary\\【Kucha】主程序_V12.6.lsp")(C:Manual_Load)
+	※Windows_10系统下安装了任意版本的AutoCAD之后，然后再安装OT
+	
+	        1-请不要安装精简版的AutoCAD。
+		2-推荐AutoCAD的版本 "Version≥2018" 。
+		3-你可以在Autodesk申请一个月的软件试用期。
+		
+	※OT安装成功后，启动AutoCAD自动加载折纸相关的命令
+	
+	        1-建议先使用命令"Kucha"配置工作空间
+		2-然后再使用命令"FW"加载绘制折纸图解所需的图层等信息。
+		
+;--如果OT启动失败
 
-※申请一个月的AutoCAD试用期==>>[here](https://knowledge.autodesk.com/zh-hans/support/autocad/learn-explore/caas/CloudHelp/cloudhelp/CHS/Autodesk-Installation/files/install-workflow-to-download-product-software-htm.html)		
+	※如果你在成功安装OT后，仍然无法在AutoCAD中使用OT的任何命令，你可以尝试以下两种方法：
+	
+		1-复制下面的代码，粘贴到命令行中并回车自动加载OT的源码 ↓ ↓ ↓
+		    (Load "C:\\OrigamiTools\\1-Code_Summary\\【Kucha】主程序_V12.7.lsp")(C:Manual_Load)
+		2-输入命令"AP"，然后在下方的路径中找到OT的源码，手动加载到启动组 ↓ ↓ ↓
+		    C:\OrigamiTools\1-Code_Summary
+
+;--申请AutoCAD的一个月试用期==>>[here](https://knowledge.autodesk.com/zh-hans/support/autocad/learn-explore/caas/CloudHelp/cloudhelp/CHS/Autodesk-Installation/files/install-workflow-to-download-product-software-htm.html)	
+
+
+三、如何在AutoCAD使用命令
+---------------------------------------------------------------------------------------------------------------
+	※输入命令的"全称"或者"别称"，然后敲击"空格"或者"回车键"调用对应的命令
+	
+		1-输入Line后，敲击空格键。可以绘制直线
+		2-输入L后，敲击空格键。也可以绘制直线
+		
+	※其他的使用技巧	
+	
+		1-无命令的状态下敲击空格键，调用上一次使用的命令。
+		2-ESC可以结束正在执行的命令。
+
 	
 
-三、主程序功能总览
+四、OT主程序包含的功能
 ---------------------------------------------------------------------------------------------------------------
-;参数说明 and 调用的命令:
+;--功能说明 and 调用的命令:
 
 	功能00：工具下载：打开OrigamiTools项目界面，同时打开个人主页
 		命令:OT
 	功能01：打开图纸集：打开存放折纸图集的路径
 		命令:OD    
-	功能02：配置工作界面：-工作空间WorkSpace+首选项Option+状态栏DSETTINGS
+	功能02：打开模板文件
+		命令:TF  
+	功能03：配置工作界面：-工作空间WorkSpace+首选项Option+状态栏DSETTINGS
 		命令:KuCha
-	功能03：切换背景色：模型空间的背景色相互转换
+		
+	功能04：切换背景色：模型空间的背景色相互转换
 		命令:BG/BackGround
-	功能04：复位工作环境：复位状态栏和图层，并将谷线图层置为当前活跃图层
+	功能05：复位工作环境：复位状态栏和图层，并将谷线图层置为当前活跃图层
 		命令:FW   ←"复位"的拼音
-	功能05：创建图层：新建折纸制图所需的图层
+	功能06：创建图层：新建折纸制图所需的图层
 		命令:Get_Layer
-	功能06：图层切换：所选对象移动到指定图层 or 切换到指定图层并执行预设的命令
-		命令:SS/MM/VV/BB/RR/EE/FF 
-	功能07：字段转换：分解特定名称的块。然后全选文件内的字段转为普通文字
+	功能07：图层切换：所选对象移动到指定图层 or 切换到指定图层并执行预设的命令
+		命令:TT/SS/MM/VV/BB/RR/EE/FF 
+	功能08：字段转换：分解特定名称的块。然后全选文件内的字段转为普通文字
 	        命令:TOTEXT
-	功能08：图层转换：针对Orihime_Mod/Oripa导出的DXF文件
+	功能09：图层转换：针对Orihime_Mod/Oripa导出的DXF文件
 		命令:TL/Trans_Layer
-	功能09：颜色转换：彩图和白图相互转换
+	功能10：颜色转换：彩图和白图相互转换
 		命令:CC/Change_Color 
-	功能10：填充转换：填充和填充轮廓相互转换
+	功能11：填充转换：填充和填充轮廓相互转换
 		命令:HB/Hatch_Border
-	功能11：对象顺序：根据图层名称调整对象显示顺序，并重生成对象
+	功能12：对象顺序：根据图层名称调整对象显示顺序，并重生成对象
 		命令:LO/Layer_Order
-	功能12：重做填充：使用拾取对象的方式重新生成填充
+	功能13：重做填充：使用拾取对象的方式重新生成填充
 		命令:RH/Redo_Hatch
-	功能13：一键转换：重做填充#RH#+颜色转换#CC#+字段转换TOTEXT+对象顺序LO
+	功能14：一键转换：重做填充#RH#+颜色转换#CC#+字段转换TOTEXT+对象顺序LO
 		命令:TOAI/`TOAI 
-	功能14：文字合并：将先选择的文字内容合并到后选择的文字内容中
+		
+	功能15：文字合并：将先选择的文字内容合并到后选择的文字内容中
 		命令:JT/Join_Text 
-	功能15：伸缩折线：将所选择的直线伸长或缩短(正值则伸长,负值则缩短)，默认值是"-1"
+	功能16：伸缩折线：将所选择的直线伸长或缩短(正值则伸长,负值则缩短)，默认值是"-1"
 		命令:DE/Delta
-	功能16：图层管理：采用数字+汉语拼音简写的方式来调用对应的图层状态
+		
+	功能17：图层管理：采用数字+汉语拼音简写的方式来调用对应的图层状态
 		命令一:GBTC=1=关闭图层    TCQK=2=图层全开
 		命令二:SDTC=3=锁定图层    JSTC=4=解锁图层	
 		命令三:GBQT=5=关闭其它    SDQT=6=锁定其它
@@ -82,9 +116,9 @@ Use AutoCAD for Origami Diagram.
 		
 
 
-四、其它功能扩展
+五、其它功能扩展
 ---------------------------------------------------------------------------------------------------------------
-;参数说明 and 调用的命令:
+;--功能说明 and 调用的命令:
 
 	功能01：页码递增：仅适用于含属性文字的块
 		命令:YM   ←"页码"的拼音
@@ -94,5 +128,5 @@ Use AutoCAD for Origami Diagram.
 		命令:DZ   ←"递增"的拼音   
   	功能04：超级修剪：修剪闭合区域内部或外部的对象
 		命令:EXTRIM   
-  	功能05：分解属性块：带属性文字的块不能直接使用X命令进行分解
+  	功能05：分解属性块：因为带属性文字的块不能直接使用X命令进行分解
 		命令:BURST
