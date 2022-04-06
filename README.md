@@ -1,5 +1,5 @@
 # AutoCAD-Origami-Diagram
-Use AutoCAD for Origami Diagram：
+Use AutoCAD for Origami Diagram
 Writer: kucha >>2022<<
 
 
