@@ -1,5 +1,5 @@
 # AutoCAD-Origami-Diagram
-OrigamiTools：Use AutoCAD for Origami Diagram. 
+Use AutoCAD for Origami Diagram：
 Writer: kucha >>2022<<
 
 
@@ -18,41 +18,7 @@ Writer: kucha >>2022<<
 
 	kucha0609@qq.com
 
-二、如何使用OrigamiTools（以下简称OT）
----------------------------------------------------------------------------------------------------------------
-;--OT的定位
-
-	※OT是AutoCAD的插件,无法独立运行
-	
-		1-它可以帮助折纸玩家在AutoCAD中更快更高效的绘制折纸图解。
-		2-它集成了大量的折纸符号、折纸图解和折纸相关的命令。
-		
-;--如何使用OT
-
-	※Windows_10系统下安装了任意版本的AutoCAD之后，然后再安装OT
-	
-	        1-请不要安装精简版的AutoCAD。
-		2-推荐AutoCAD的版本 "Version≥2018" 。
-		3-你可以在Autodesk申请一个月的软件试用期。
-		
-	※OT安装成功后，启动AutoCAD自动加载折纸相关的命令
-	
-	        1-建议先使用命令"Kucha"配置工作空间
-		2-然后再使用命令"FW"加载绘制折纸图解所需的图层等信息。
-		
-;--如果OT启动失败
-
-	※如果你在成功安装OT后，仍然无法在AutoCAD中使用OT的任何命令，你可以尝试以下两种方法：
-	
-		1-复制下面的代码，粘贴到命令行中并回车自动加载OT的源码 ↓ ↓ ↓
-		    (Load "C:\\OrigamiTools\\1-Code_Summary\\【Kucha】主程序_V12.7.lsp")(C:Manual_Load)
-		2-输入命令"AP"，然后在下方的路径中找到OT的源码，手动加载到启动组 ↓ ↓ ↓
-		    C:\OrigamiTools\1-Code_Summary
-
-;--申请AutoCAD的一个月试用期==>>[here](https://knowledge.autodesk.com/zh-hans/support/autocad/learn-explore/caas/CloudHelp/cloudhelp/CHS/Autodesk-Installation/files/install-workflow-to-download-product-software-htm.html)	
-
-
-三、如何在AutoCAD使用命令
+二、如何在AutoCAD使用命令
 ---------------------------------------------------------------------------------------------------------------
 	※输入命令的"全称"或者"别称"，然后敲击"空格"或者"回车键"调用对应的命令
 	
@@ -64,7 +30,42 @@ Writer: kucha >>2022<<
 		1-无命令的状态下敲击空格键，调用上一次使用的命令。
 		2-ESC可以结束正在执行的命令。
 
+
+
+三、关于OrigamiTools（以下简称OT）
+---------------------------------------------------------------------------------------------------------------
+;--OT的定位
+
+	※OT是AutoCAD的插件,无法独立运行。
 	
+		1-它可以帮助折纸玩家在AutoCAD中更快更高效的绘制折纸图解。
+		2-它集成了大量的折纸符号、折纸图解和折纸相关的命令。
+		
+;--如何使用OT
+
+	※Windows_10系统下安装了任意版本的AutoCAD之后，再安装OT
+	
+	        1-请不要安装精简版的AutoCAD。
+		2-推荐AutoCAD的版本 "Version≥2018" 。
+		3-你可以在Autodesk申请一个月的AutoCAD试用期。
+		
+	※OT安装成功后，启动AutoCAD自动加载折纸相关的命令
+	
+	        1-建议先使用命令"Kucha"配置工作空间
+		2-然后再使用命令"FW"加载绘制折纸图解所需的图层等信息。
+		
+;--如果OT启动失败
+
+	※如果你在成功安装OT后，仍然无法在AutoCAD中使用OT的任何命令，你可以尝试以下两种方法：
+	
+		1-复制下面的代码，粘贴到命令行中并回车，自动加载OT的源码 ↓ ↓ ↓
+		    (Load "C:\\OrigamiTools\\1-Code_Summary\\【Kucha】主程序_V12.7.lsp")(C:Manual_Load)
+		2-输入命令"AP"后回车，然后在下方的路径中找到OT的源码，手动加载到启动组 ↓ ↓ ↓
+		    C:\OrigamiTools\1-Code_Summary
+
+;--申请AutoCAD的一个月试用期==>>[here](https://knowledge.autodesk.com/zh-hans/support/autocad/learn-explore/caas/CloudHelp/cloudhelp/CHS/Autodesk-Installation/files/install-workflow-to-download-product-software-htm.html)	
+
+
 
 四、主程序的功能
 ---------------------------------------------------------------------------------------------------------------
