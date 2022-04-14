@@ -48,19 +48,25 @@ Writer: kucha >>2022<<
 	        1-请不要安装精简版的AutoCAD。
 		2-推荐AutoCAD的版本 "Version≥2018" 。
 		3-你可以在Autodesk申请一个月的AutoCAD试用期。
+		※Windows_10系统下安装了任意版本的AutoCAD之后，再安装OT
 		
-	※OT安装成功后，启动AutoCAD自动加载折纸相关的命令
+	※在CAD中加载OT的方法
+	
+		Step01:复制代码→(Load "C:\\OrigamiTools\\--other--\\Auto_Load.lsp")
+		Step02:启动AutoCAD,创建一个新文件
+		Stp03:粘贴复制的代码到命令行，然后回车
+		Step04:重新启动AutoCAD
+		
+	※OT加载成功后，启动AutoCAD将自动加载折纸相关的命令
 	
 	        1-建议先使用命令"Kucha"配置工作空间
 		2-然后再使用命令"FW"加载绘制折纸图解所需的图层等信息。
 		
 ;--如果OT启动失败
 
-	※如果你在成功安装OT后，仍然无法在AutoCAD中使用OT的任何命令，你可以尝试以下两种方法：
+	※如果你在成功安装OT后，仍然无法在AutoCAD中使用OT的任何命令，你可以尝试以下的方法：
 	
-		1-复制下面的代码，粘贴到命令行中并回车，自动加载OT的源码 ↓ ↓ ↓
-		    (Load "C:\\OrigamiTools\\1-Code_Summary\\【Kucha】主程序_V12.7.lsp")(C:Manual_Load)
-		2-输入命令"AP"后回车，然后在下方的路径中找到OT的源码，手动加载到启动组 ↓ ↓ ↓
+		1-输入命令"AP"后回车，然后在下方的路径中找到OT的源码，手动加载到启动组 ↓ ↓ ↓
 		    C:\OrigamiTools\1-Code_Summary
 
 ;--申请AutoCAD的一个月试用期==>>[here](https://knowledge.autodesk.com/zh-hans/support/autocad/learn-explore/caas/CloudHelp/cloudhelp/CHS/Autodesk-Installation/files/install-workflow-to-download-product-software-htm.html)	
