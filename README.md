@@ -10,7 +10,9 @@ Writer: kucha  ==>>2022<<==
 - [一、基本信息](#一基本信息)  
   - Reference、Website、E-mail
 - [二、关于OrigamiTools（以下简称OT）](#二关于origamitools以下简称ot)  
-  - OT的定位、如何加载OT、如果OT启动失败
+  - [OT的定位](#ot的定位)  
+  - [如何加载OT](#如何加载ot)  
+  - [如果OT启动失败](#如果ot启动失败)  
 - [三、如何在AutoCAD中使用命令](#三如何在autocad中使用命令)  
 - [四、主程序的功能](#四主程序的功能)  
 - [五、扩展程序的功能](#五扩展程序的功能)  
@@ -39,7 +41,7 @@ Writer: kucha  ==>>2022<<==
 
 ### [二、关于OrigamiTools（以下简称OT）](#零目录--contents)  
 ---------------------------------------------------------------------------------------------------------------
-- **OT的定位**
+- [**OT的定位**](#二关于origamitools以下简称ot)  
 
 	※OT是AutoCAD的插件,无法独立运行。
 	
@@ -47,7 +49,7 @@ Writer: kucha  ==>>2022<<==
 		02-它集成了大量的折纸符号、折纸图解和折纸相关的命令。
 	※[申请AutoCAD的一个月试用期](https://knowledge.autodesk.com/zh-hans/support/autocad/learn-explore/caas/CloudHelp/cloudhelp/CHS/Autodesk-Installation/files/install-workflow-to-download-product-software-htm.html)	
 		
-- **如何加载OT**
+- [**如何加载OT**](#二关于origamitools以下简称ot)  
 
 	※Windows_10系统下安装了任意版本的AutoCAD之后，再安装OT
 	
@@ -67,7 +69,7 @@ Writer: kucha  ==>>2022<<==
 	    01-建议先使用命令"Kucha"配置工作空间
 		02-然后再使用命令"FW"加载绘制折纸图解所需的图层等信息。
 		
-- **如果OT启动失败**
+- [**如果OT启动失败**](#二关于origamitools以下简称ot)  
 
 	※如果你在成功安装OT后，仍然无法在AutoCAD中使用OT的任何命令，你可以尝试以下的方法：
 	
