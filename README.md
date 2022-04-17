@@ -137,3 +137,7 @@ Writer: kucha >>2022<<
 		命令:EXTRIM   
   	功能05：分解属性块：因为带属性文字的块不能直接使用X命令进行分解
 		命令:BURST
+		
+六、赞助方式
+---------------------------------------------------------------------------------------------------------------	
+![Image text](https://github.com/kucha0609/AutoCAD-Origami-Diagram/blob/master/--Info--/sponsorship.jpg)
