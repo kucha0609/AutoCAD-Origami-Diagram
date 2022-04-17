@@ -2,7 +2,6 @@
 Use AutoCAD for Origami Diagram  
 Writer: kucha  ==>>2022<<== 
 <br>
-<br>
 
 ---------------------------------------------------------------------------------------------------------------
 ### [零、目录 / Contents](#零目录--contents)  
@@ -29,10 +28,9 @@ Writer: kucha  ==>>2022<<==
 	Windows_10 + AutoCAD(Simplified Chinese or English) 
 
 - **Website**
-
-	https://space.bilibili.com/28181671
-	<br>
+- 
 	www.twitter.com/kucha_Mai   
+	https://space.bilibili.com/28181671
 
 - **E-mail**
 
