@@ -7,7 +7,7 @@ OriTools/OrigamiTools：Use AutoCAD for Origami Diagram
 ---------------------------------------------------------------------------------------------------------------
 - [一、基本信息](#一基本信息)  
   - Reference、Website、E-mail
-- [二、关于OrigamiTools（以下简称OT）](#二关于origamitools以下简称ot)  
+- [二、关于OriTools（以下简称OT）](#二关于oritools以下简称ot)  
   - OT的定位
   - 加载OT的方法
   - 如果OT启动失败怎么办？
@@ -39,7 +39,7 @@ OriTools/OrigamiTools：Use AutoCAD for Origami Diagram
 
 <br>
 
-### [二、关于OrigamiTools（以下简称OT）](#零目录--contents)  
+### [二、关于OriTools（以下简称OT）](#零目录--contents)  
 ---------------------------------------------------------------------------------------------------------------
 - [**OT的定位**](#二关于origamitools以下简称ot)  
 
