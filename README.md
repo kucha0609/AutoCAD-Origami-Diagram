@@ -17,10 +17,10 @@ Writer: kucha  ==>>2022<<==
 - [四、主程序的功能](#四主程序的功能)  
 - [五、扩展程序的功能](#五扩展程序的功能)  
 
+<div align=center><img src="https://github.com/kucha0609/AutoCAD-Origami-Diagram/blob/master/--Info--/Sponsorship.jpg" width="800"/></div>
+
+
 <br>
-
-![Image text](https://github.com/kucha0609/AutoCAD-Origami-Diagram/blob/master/--Info--/Sponsorship.jpg)
-
 
 ### [一、基本信息](#零目录--contents)  
 ---------------------------------------------------------------------------------------------------------------
