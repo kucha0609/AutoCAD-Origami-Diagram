@@ -50,32 +50,30 @@ Writer: kucha  ==>>2022<<==
 		01-它可以帮助折纸玩家在AutoCAD中更快更高效的绘制折纸图解。
 		02-它集成了大量的折纸符号、折纸图解和折纸相关的命令。
 		
-	※[申请AutoCAD的一个月试用期](https://knowledge.autodesk.com/zh-hans/support/autocad/learn-explore/caas/CloudHelp/cloudhelp/CHS/Autodesk-Installation/files/install-workflow-to-download-product-software-htm.html)	
-		
 - [**如何加载OT**](#二关于origamitools以下简称ot)  
 
-	※Windows_10系统下安装了任意版本的AutoCAD之后，再安装OT
-	
-	        01-请不要安装精简版的AutoCAD。
+	※Windows_10系统下安装了任意版本的AutoCAD之后，再双击OT的安装包
+
+		01-请不要安装精简版的AutoCAD。
 		02-推荐AutoCAD的版本 "Version≥2018" 。
-		03-你可以在Autodesk申请一个月的AutoCAD试用期。
-		
+		03-你可以在Autodesk[申请AutoCAD的一个月试用期](https://knowledge.autodesk.com/zh-hans/support/autocad/learn-explore/caas/CloudHelp/cloudhelp/CHS/Autodesk-Installation/files/install-workflow-to-download-product-software-htm.html)
+
 	※在CAD中加载OT的方法
-	
+
 		Step01 ==>>复制代码→(Load "C:\\OrigamiTools\\--other--\\Auto_Load.lsp")
 		Step02 ==>>启动AutoCAD,创建一个新文件
 		Step03 ==>>粘贴复制的代码到命令行，然后回车
 		Step04 ==>>重新启动AutoCAD
 		
 	※OT加载成功后，启动AutoCAD将自动加载折纸相关的命令
-	
-	        01-建议先使用命令"Kucha"配置工作空间
+
+		01-建议先使用命令"Kucha"配置工作空间
 		02-然后再使用命令"FW"加载绘制折纸图解所需的图层等信息。
 		
 - [**如果OT启动失败**](#二关于origamitools以下简称ot)  
 
 	※如果你在成功安装OT后，仍然无法在AutoCAD中使用OT的任何命令，你可以尝试以下的方法：
-	
+
 		01-输入命令"AP"后回车，然后在下方的电脑路径中找到OT的源码，手动加载到启动组 ↓ ↓ ↓
 		    C:\OrigamiTools\1-Code_Summary
 
@@ -85,12 +83,12 @@ Writer: kucha  ==>>2022<<==
 ### [三、如何在AutoCAD中使用命令](#零目录--contents)  
 ---------------------------------------------------------------------------------------------------------------
 	※输入命令的"全称"或者"别称"，然后敲击"空格"或者"回车键"调用对应的命令
-	
+
 		01-输入Line后，敲击空格键。可以绘制直线
 		02-输入L后，敲击空格键。也可以绘制直线
 		
-	※其他的使用技巧	
-	
+	※其他的使用技巧
+
 		01-无命令的状态下敲击空格键，调用上一次使用的命令。
 		02-ESC可以结束正在执行的命令。
 
@@ -108,7 +106,7 @@ Writer: kucha  ==>>2022<<==
 		命令:TF  
 	功能03：配置工作界面：-工作空间WorkSpace+首选项Option+状态栏DSETTINGS
 		命令:KuCha
-		
+
 	功能04：切换背景色：模型空间的背景色相互转换
 		命令:BG/BackGround
 	功能05：复位工作环境：复位状态栏和图层，并将谷线图层置为当前活跃图层
@@ -131,7 +129,7 @@ Writer: kucha  ==>>2022<<==
 		命令:RH/Redo_Hatch
 	功能14：一键转换：重做填充#RH#+颜色转换#CC#+字段转换TOTEXT+对象顺序LO
 		命令:TOAI/`TOAI 
-		
+
 	功能15：文字合并：将先选择的文字内容合并到后选择的文字内容中
 		命令:JT/Join_Text 
 	功能16：伸缩折线：将所选择的直线伸长或缩短(正值则伸长,负值则缩短)，默认值是"-1"
@@ -139,12 +137,10 @@ Writer: kucha  ==>>2022<<==
 		
 	功能17：图层管理：采用数字+汉语拼音简写的方式来调用对应的图层状态
 		命令一:GBTC=1=关闭图层    TCQK=2=图层全开
-		命令二:SDTC=3=锁定图层    JSTC=4=解锁图层	
+		命令二:SDTC=3=锁定图层    JSTC=4=解锁图层
 		命令三:GBQT=5=关闭其它    SDQT=6=锁定其它
 		命令四:HFTC=7=恢复图层    ZWDQ=8=置为当前
-		命令五:YZDQ=9=移至当前    XZLS=0=选择类似	
-		
-
+		命令五:YZDQ=9=移至当前    XZLS=0=选择类似
 
 <br>
 
