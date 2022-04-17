@@ -16,9 +16,11 @@ Writer: kucha  ==>>2022<<==
 - [三、如何在AutoCAD中使用命令](#三如何在autocad中使用命令)  
 - [四、主程序的功能](#四主程序的功能)  
 - [五、扩展程序的功能](#五扩展程序的功能)  
-![Image text](https://github.com/kucha0609/AutoCAD-Origami-Diagram/blob/master/--Info--/Sponsorship.jpg)
 
 <br>
+
+![Image text](https://github.com/kucha0609/AutoCAD-Origami-Diagram/blob/master/--Info--/Sponsorship.jpg)
+
 
 ### [一、基本信息](#零目录--contents)  
 ---------------------------------------------------------------------------------------------------------------
