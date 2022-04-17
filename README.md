@@ -1,6 +1,6 @@
 # AutoCAD-Origami-Diagram
 Use AutoCAD for Origami Diagram
-Writer: kucha >>2022<<
+Writer: kucha ==>>2022<<==
 
 
 一、基本信息
