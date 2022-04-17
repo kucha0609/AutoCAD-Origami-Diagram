@@ -16,10 +16,6 @@ Writer: kucha  ==>>2022<<==
 - [五、扩展程序的功能](#五扩展程序的功能)  
 ![Image text](https://github.com/kucha0609/AutoCAD-Origami-Diagram/blob/master/--Info--/Sponsorship.jpg)
 
-
-  - [Innovation point](#innovation-point)
-  - [Developmental vision](#developmental-vision)
-
 <br>
 
 ### [一、基本信息](#零目录--contents)  
@@ -49,6 +45,7 @@ Writer: kucha  ==>>2022<<==
 	
 		01-它可以帮助折纸玩家在AutoCAD中更快更高效的绘制折纸图解。
 		02-它集成了大量的折纸符号、折纸图解和折纸相关的命令。
+	※[申请AutoCAD的一个月试用期](https://knowledge.autodesk.com/zh-hans/support/autocad/learn-explore/caas/CloudHelp/cloudhelp/CHS/Autodesk-Installation/files/install-workflow-to-download-product-software-htm.html)	
 		
 - **如何加载OT**
 
@@ -76,9 +73,6 @@ Writer: kucha  ==>>2022<<==
 	
 		01-输入命令"AP"后回车，然后在下方的电脑路径中找到OT的源码，手动加载到启动组 ↓ ↓ ↓
 		    C:\OrigamiTools\1-Code_Summary
-
-;--申请AutoCAD的一个月试用期==>>[here](https://knowledge.autodesk.com/zh-hans/support/autocad/learn-explore/caas/CloudHelp/cloudhelp/CHS/Autodesk-Installation/files/install-workflow-to-download-product-software-htm.html)	
-
 
 
 <br>
