@@ -1,7 +1,6 @@
 # AutoCAD-Origami-Diagram  
 OriTools/OrigamiTools：Use AutoCAD for Origami Diagram
 <p align="right"> — — KuCha©2022</p>
-<br>
 
 ---------------------------------------------------------------------------------------------------------------
 ### [零、目录 / Contents](#零目录--contents)  
