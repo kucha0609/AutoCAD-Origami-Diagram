@@ -18,7 +18,7 @@ Writer: kucha ==>>2022<<==
 
 	kucha0609@qq.com
 ;--sponsorship
-	![Image text](https://github.com/kucha0609/AutoCAD-Origami-Diagram/blob/master/--Info--/sponsorship.jpg)
+	![Image text](https://github.com/kucha0609/AutoCAD-Origami-Diagram/blob/master/--Info--/Sponsorship.jpg)
 
 二、关于OrigamiTools（以下简称OT）
 ---------------------------------------------------------------------------------------------------------------
