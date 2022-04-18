@@ -47,7 +47,7 @@
 		01-它可以帮助折纸玩家在AutoCAD中更快更高效的绘制折纸图解。
 		02-它集成了大量的折纸符号、折纸图解和折纸相关的命令。
 
-	※[申请一个月的AutoCAD试用期](https://knowledge.autodesk.com/zh-hans/support/autocad/learn-explore/caas/CloudHelp/cloudhelp/CHS/Autodesk-Installation/files/install-workflow-to-download-product-software-htm.html)
+
 	
 - [**加载OT的方法**](#二关于origamitools以下简称ot)  
 
@@ -57,6 +57,8 @@
 		01-请不要安装精简版的AutoCAD。
 		02-推荐AutoCAD的版本 "Version≥2018" 。
 		03-你可以在Autodesk申请一个月的AutoCAD试用期。
+	
+	※[申请一个月的AutoCAD试用期](https://knowledge.autodesk.com/zh-hans/support/autocad/learn-explore/caas/CloudHelp/cloudhelp/CHS/Autodesk-Installation/files/install-workflow-to-download-product-software-htm.html)
 	
 	※在CAD中加载OT的方法
 
