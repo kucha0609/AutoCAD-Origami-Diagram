@@ -58,7 +58,7 @@
 		02-推荐AutoCAD的版本 "Version≥2018" 。
 		03-你可以在Autodesk申请一个月的AutoCAD试用期。
 	
-	※[申请一个月的AutoCAD试用期](https://knowledge.autodesk.com/zh-hans/support/autocad/learn-explore/caas/CloudHelp/cloudhelp/CHS/Autodesk-Installation/files/install-workflow-to-download-product-software-htm.html){:target="_blank"}
+	※[申请一个月的AutoCAD试用期](https://knowledge.autodesk.com/zh-hans/support/autocad/learn-explore/caas/CloudHelp/cloudhelp/CHS/Autodesk-Installation/files/install-workflow-to-download-product-software-htm.html)
 	
 	※在CAD中加载OT的方法
 
@@ -101,7 +101,7 @@
 --------------------------------------------------------------------------------------------------------------
 ### [四、主程序的功能](#零目录--contents)  
 --------------------------------------------------------------------------------------------------------------
-※[《Description for OT》](https://github.com/kucha0609/AutoCAD-Origami-Diagram/blob/master/--Info--/%E3%80%8ADescription%20for%20OT%E3%80%8B.pdf){:target="_blank"}
+※[《Description for OT》](https://github.com/kucha0609/AutoCAD-Origami-Diagram/blob/master/--Info--/%E3%80%8ADescription%20for%20OT%E3%80%8B.pdf)
 
 	功能00：工具下载：打开OrigamiTools项目界面，同时打开个人主页
 		命令:OT
