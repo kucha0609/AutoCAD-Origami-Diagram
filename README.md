@@ -28,7 +28,8 @@
 
 - **Website**
 - 
-	www.twitter.com/kucha_Mai   
+	www.twitter.com/kucha_Mai
+	www.facebook.com/cha.ku.714
 	https://space.bilibili.com/28181671
 
 - **E-mail**
