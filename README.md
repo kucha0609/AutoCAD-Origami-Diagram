@@ -27,9 +27,9 @@
 	Windows_10 + AutoCAD(Simplified Chinese or English) 
 
 - **Website**
-- 
-	www.twitter.com/kucha_Mai
-	www.facebook.com/cha.ku.714
+
+	www.twitter.com/kucha_Mai  
+	www.facebook.com/cha.ku.714  
 	https://space.bilibili.com/28181671
 
 - **E-mail**
@@ -59,7 +59,7 @@
 		02-推荐AutoCAD的版本 "Version≥2018" 。
 		03-你可以在Autodesk申请一个月的AutoCAD试用期。
 	
-	※[申请一个月的AutoCAD试用期](https://knowledge.autodesk.com/zh-hans/support/autocad/learn-explore/caas/CloudHelp/cloudhelp/CHS/Autodesk-Installation/files/install-workflow-to-download-product-software-htm.html)
+	※[申请一个月的AutoCAD试用期](https://knowledge.autodesk.com/zh-hans/support/autocad/learn-explore/caas/CloudHelp/cloudhelp/CHS/Autodesk-Installation/files/install-workflow-to-download-product-software-htm.html)  
 	※[下载AutoCAD语言包](https://knowledge.autodesk.com/zh-hans/support/autocad/troubleshooting/caas/downloads/downloads/CHS/content/autocad-language-packs.html?us_oa=akn-us&us_si=8c0dd5c0-bcc4-4d73-8de9-58e1f2d19cac&us_st=autocad%20%E8%AF%AD%E8%A8%80%E5%8C%85)
 	
 	※在CAD中加载OT的方法
