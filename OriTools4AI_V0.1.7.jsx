@@ -1,5 +1,4 @@
 ﻿#target "illustrator"
-
 app.preferences.setBooleanPreference("ShowExternalJSXWarning", false);
 //---------------------------------------------------------------------------------------------------------------//
 //  OrigamiTools for Adobe Illustrator                                                                           //
