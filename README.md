@@ -64,7 +64,7 @@
 	
 	※在CAD中加载OT的方法
 
-		Step01 ==>>复制代码→(Load "C:\\OrigamiTools\\--other--\\Auto_Load.lsp")
+		Step01 ==>>复制代码→(Load "C:\\OrigamiTools\\Auto_Load.lsp")
 		Step02 ==>>启动AutoCAD,创建一个新文件
 		Step03 ==>>粘贴复制的代码到命令行，然后回车
 		Step04 ==>>重新启动AutoCAD
