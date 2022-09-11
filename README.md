@@ -64,7 +64,7 @@
 	
 	※在CAD中加载OT的方法
 
-		Step01 ==>>复制代码→(Load "C:\\OrigamiTools\\Auto_Load.lsp")
+		Step01 ==>>复制代码→(Load "C:\\0-OriTools\\Auto_Load.lsp")
 		Step02 ==>>启动AutoCAD,创建一个新文件
 		Step03 ==>>粘贴复制的代码到命令行，然后回车
 		Step04 ==>>重新启动AutoCAD
@@ -79,7 +79,7 @@
 	※如果你在成功安装OT后，仍然无法在AutoCAD中使用OT的任何命令，你可以尝试以下的方法：
 
 		01-输入命令"AP"后回车，然后在下方的电脑路径中找到OT的源码，手动加载到启动组 ↓ ↓ ↓
-		    C:\OrigamiTools\1-Code_Summary
+		    C:\0-OriTools\1-Code_Summary
 
 
 <br>
