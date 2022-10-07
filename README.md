@@ -24,7 +24,7 @@
 ---------------------------------------------------------------------------------------------------------------
 - **Reference**
 
-	Windows_10 + AutoCAD(Simplified Chinese or English) 
+	Windows_10 + AutoCAD_2018(Simplified Chinese or English) 
 
 - **Website**
 
@@ -56,7 +56,7 @@
 	※Windows_10系统下安装了任意版本的AutoCAD之后，再双击OT的安装包
 
 		01-请不要安装精简版的AutoCAD。
-		02-推荐AutoCAD的版本 "Version≥2018" 。
+		02-推荐AutoCAD的版本 "Version=2018" 。
 		03-你可以在Autodesk申请一个月的AutoCAD试用期。
 	
 	※[申请一个月的AutoCAD试用期](https://knowledge.autodesk.com/zh-hans/support/autocad/learn-explore/caas/CloudHelp/cloudhelp/CHS/Autodesk-Installation/files/install-workflow-to-download-product-software-htm.html)  
