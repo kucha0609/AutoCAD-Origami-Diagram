@@ -62,7 +62,7 @@
 	※[申请一个月的AutoCAD试用期](https://knowledge.autodesk.com/zh-hans/support/autocad/learn-explore/caas/CloudHelp/cloudhelp/CHS/Autodesk-Installation/files/install-workflow-to-download-product-software-htm.html)  
 	※[下载AutoCAD语言包](https://knowledge.autodesk.com/zh-hans/support/autocad/troubleshooting/caas/downloads/downloads/CHS/content/autocad-language-packs.html?us_oa=akn-us&us_si=8c0dd5c0-bcc4-4d73-8de9-58e1f2d19cac&us_st=autocad%20%E8%AF%AD%E8%A8%80%E5%8C%85)
 	
-	※在CAD中加载OT的方法
+	※在CAD中手动加载OT的方法
 
 		Step01 ==>>复制代码→(Load "C:\\0-OriTools\\Auto_Load.lsp")
 		Step02 ==>>启动AutoCAD,创建一个新文件
