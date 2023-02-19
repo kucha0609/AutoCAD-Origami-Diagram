@@ -1,5 +1,5 @@
 # OriTools：Use AutoCAD for Origami Diagram
-<p align="right"> — — KuCha©2022</p>
+<p align="right"> — — KuCha©2023</p>
 
 ---------------------------------------------------------------------------------------------------------------
 ### [零、目录 / Contents](#零目录--contents)  
@@ -60,7 +60,6 @@
 		03-你可以在Autodesk申请一个月的AutoCAD试用期。
 	
 	※[申请一个月的AutoCAD试用期](https://knowledge.autodesk.com/zh-hans/support/autocad/learn-explore/caas/CloudHelp/cloudhelp/CHS/Autodesk-Installation/files/install-workflow-to-download-product-software-htm.html)  
-	※[下载AutoCAD语言包](https://knowledge.autodesk.com/zh-hans/support/autocad/troubleshooting/caas/downloads/downloads/CHS/content/autocad-language-packs.html?us_oa=akn-us&us_si=8c0dd5c0-bcc4-4d73-8de9-58e1f2d19cac&us_st=autocad%20%E8%AF%AD%E8%A8%80%E5%8C%85)
 	
 	※在CAD中手动加载OT的方法
 
@@ -71,15 +70,15 @@
 		
 	※OT加载成功后，启动AutoCAD将自动加载折纸相关的命令
 
-		01-建议先使用命令"Kucha"配置工作空间
-		02-然后再使用命令"FW"加载绘制折纸图解所需的图层等信息。
+		01-首次使用OriTools需要使用命令"Kucha"配置工作空间
+		02-然后再使用命令"FW"加载绘制折纸图解所需的图层。
 		
 - [**如果OT启动失败怎么办？**](#二关于oritools以下简称ot)  
 
 	※如果你在成功安装OT后，仍然无法在AutoCAD中使用OT的任何命令，你可以尝试以下的方法：
 
-		01-输入命令"AP"后回车，然后在下方的电脑路径中找到OT的源码，手动加载到启动组 ↓ ↓ ↓
-		    C:\0-OriTools\1-Code_Summary
+		01-输入命令"AP"后回车，然后将下方路径中的LSP文件手动加载到启动组 ,然后重启CAD↓ ↓ ↓
+		    C:\0-OriTools\Auto_Load.lsp
 
 
 <br>
@@ -95,7 +94,7 @@
 ※其他的使用技巧  
 
 		01-无命令的状态下敲击空格键，调用上一次使用的命令。
-		02-ESC可以结束正在执行的命令。
+		02-ESC可以中断正在执行的命令。
 
 
 <br>
@@ -137,11 +136,9 @@
 	      →命令:FA ← Fill_All  
 	功能13：伸缩折线：将所选择的直线伸长或缩短(正值为伸长,负值为缩短)
 	      →命令:DE ← Delta
-	功能14：填充分离：创建独立的填充和解除图案关联
-	      →命令:FU ← Face_Unlink
-	功能15：超级修剪：修剪区域内部或外部的对象。
+	功能14：超级修剪：修剪区域内部或外部的对象。
 	      →命令:CTR ← Circle_TRIM
-	功能16：快速打印:目前适用于"模板的A4块"和"图框图层中的矩形"
+	功能15：快速打印:目前适用于"模板的A4块"和"图框图层中的矩形"
 	      →命令:QQ ← Quick_Plot
       
 	图层管理：采用数字+汉语拼音简写的方式来调用对应的图层状态。                                          
@@ -175,3 +172,5 @@
 		    →命令:BD
 	      功能10——试验阶段：外轮廓转填充：只选择外轮廓的线，转换为纯色填充，并且删除这些线。和BD命令配合使用。
 		    →命令:HB
+	      功能14：填充分离：创建独立的填充和解除图案关联
+		    →命令:FU ← Face_Unlink
