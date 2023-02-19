@@ -53,7 +53,7 @@
 - [**加载OT的方法**](#二关于oritools以下简称ot)  
 
 
-	※Windows_10系统下安装了任意版本的AutoCAD之后，再双击OT的安装包
+	※Windows_10系统下安装了任意版本的AutoCAD之后，再双击OT的安装包，按提示安装即可
 
 		01-请不要安装精简版的AutoCAD。
 		02-推荐AutoCAD的版本 "Version=2018" 。
