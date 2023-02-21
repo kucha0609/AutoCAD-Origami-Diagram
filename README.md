@@ -60,26 +60,20 @@
 		03-你可以在Autodesk申请一个月的AutoCAD试用期。
 	
 	※[申请一个月的AutoCAD试用期](https://knowledge.autodesk.com/zh-hans/support/autocad/learn-explore/caas/CloudHelp/cloudhelp/CHS/Autodesk-Installation/files/install-workflow-to-download-product-software-htm.html)  
-	
-	※在CAD中手动加载OT的方法
-
-		Step01 ==>>复制代码→(Load "C:\\0-OriTools\\Auto_Load.lsp")
-		Step02 ==>>启动AutoCAD,创建一个新文件
-		Step03 ==>>粘贴复制的代码到命令行，然后回车
-		Step04 ==>>重新启动AutoCAD
 		
 	※OT加载成功后，启动AutoCAD将自动加载折纸相关的命令
 
-		01-首次使用OriTools需要使用命令"Kucha"配置工作空间
+		01-首次使用OriTools建议使用命令"Kucha"配置工作空间
 		02-然后再使用命令"FW"加载绘制折纸图解所需的图层。
 		
 - [**如果OT启动失败怎么办？**](#二关于oritools以下简称ot)  
 
-	※如果你在成功安装OT后，仍然无法在AutoCAD中使用OT的任何命令，你可以尝试以下的方法：
+	※如果你在成功安装OT后，仍然无法在AutoCAD中使用OT的任何命令，你可以尝试手动加载OT：
 
-		01-输入命令"AP"后回车，然后将下方路径中的LSP文件手动加载到启动组 ,然后重启CAD↓ ↓ ↓
-		    C:\0-OriTools\Auto_Load.lsp
-
+		01-输入命令"AP"后回车
+		02-单击"内容"，然后单击"添加"
+		03-在路径" C:\0-OriTools"中找到LSP文件"Auto_Load.lsp"
+		04-双击程序添加到启动组 ,然后重启CAD即可
 
 <br>
 
