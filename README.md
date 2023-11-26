@@ -6,7 +6,7 @@
 ---------------------------------------------------------------------------------------------------------------
 - [一、基本信息](#一基本信息)  
   - Reference、Website、E-mail
-- [二、关于OriTools（以下简称OT）](#二关于oritools以下简称ot)  
+- [二、关于OriTools（以下简称OT）](#二关于oritools以下简OT)  
   - OT的定位
   - 加载OT的方法
   - 如果OT启动失败怎么办？
@@ -24,7 +24,7 @@
 ---------------------------------------------------------------------------------------------------------------
 - **Reference**
 
-	Windows_10 + AutoCAD_2018(Simplified Chinese or English) 
+	Windows_10 + AutoCAD(Simplified Chinese or English) 
 
 - **Website**
 
