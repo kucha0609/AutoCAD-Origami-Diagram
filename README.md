@@ -1,12 +1,13 @@
 # OriTools：Use AutoCAD for Origami Diagram
 <p align="right"> — — KuCha©2023</p>
 
+#### 百度网盘下载：https://pan.baidu.com/s/1dlbzVAeSLv7UA5Vg-igmJg?pwd=o8h8 
+
 ---------------------------------------------------------------------------------------------------------------
 ### [零、目录 / Contents](#零目录--contents)  
 ---------------------------------------------------------------------------------------------------------------
 - [一、基本信息](#一基本信息)  
   - Reference、Website、E-mail
-  - 百度网盘下载：https://pan.baidu.com/s/1dlbzVAeSLv7UA5Vg-igmJg?pwd=o8h8 
 - [二、关于OriTools（以下简称OT）](#二关于oritools以下简OT)  
   - OT的定位
   - 加载OT的方法
